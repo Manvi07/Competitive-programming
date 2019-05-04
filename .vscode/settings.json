@@ -1,0 +1,24 @@
+{
+    "files.associations": {
+        "bitset": "cpp",
+        "chrono": "cpp",
+        "ostream": "cpp",
+        "limits": "cpp",
+        "valarray": "cpp",
+        "*.tcc": "cpp",
+        "list": "cpp",
+        "array": "cpp",
+        "initializer_list": "cpp",
+        "utility": "cpp",
+        "deque": "cpp",
+        "forward_list": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "vector": "cpp",
+        "algorithm": "cpp",
+        "cmath": "cpp",
+        "complex": "cpp",
+        "iostream": "cpp",
+        "new": "cpp"
+    }
+}
