@@ -154,7 +154,5 @@ int main()
     bst = insert(bst, 17);
     bst = insert(bst, 20);
     inorder(bst);
-    bst = deleteKey(bst, 9);
-    cout<<"-------\n";
-    inorder(bst);
+    return 0;
 }
