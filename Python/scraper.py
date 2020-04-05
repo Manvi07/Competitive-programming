@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import time
 import numpy as np
 
-browser = webdriver.Chrome("/home/manvi/chromedriver")
+browser = webdriver.Firefox("/home/manvi/geckodriver")
 prefix = "http://www.codechef.com/users/"
 names = {"mandeepkaur990", "khubi_kumar", "tushika_25", "sanvi_2512", "va_44", "glimmer", "adee7982", "kratika29", "yamini_sharma", "tharsis24", "sinhaakanksha"}
 urls = []

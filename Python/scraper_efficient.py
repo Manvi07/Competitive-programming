@@ -7,7 +7,7 @@ import numpy as np
 
 browser = webdriver.Chrome("/home/manvi/chromedriver")
 prefix = "http://www.codechef.com/users/"
-names = {"mandeepkaur990", "khubi_kumar", "tushika_25", "sanvi_2512", "va_44", "glimmer", "adee7982", "kratika29", "yamini_sharma", "tharsis24", "sinhaakanksha"}
+names = {"mandeepkaur990", "khubi_kumar", "tushika_25", "sanvi_2512", "va_44", "glimmer", "adee7982", "kratika29", "yamini_sharma", "tharsis24", "sinhaakanksha", "bintip", "shwetashinde", "srishti09"}
 urls = []
 
 for name in names:
@@ -27,7 +27,8 @@ for baseURL in urls:
 
     submissions.append((L[0], L[1]))
     names.append(baseURL.split('/')[-1])
-print(submissions)
+for i in range(len(urls)):
+    print(names[i], submissions[i])
 # submissions = np.asarray(submissions)
 y_pos = np.arange(len(urls))
 y1 = [i[0] for i in submissions]
